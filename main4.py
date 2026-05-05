@@ -238,9 +238,56 @@
 # for index, element in enumerate(lange): # enumerate -  Также возращает индекс.
 #     print(index, el)
 
-string = 'Я будущий Python разработчик' # split - разделяет слова на список.
-my_list = print(string.split())
-print(my_list)
+# string = 'Я будущий Python разработчик' # split - разделяет слова на список.
+# my_list = print(string.split())
+# print(my_list)
 
-ip = '127.0.01'
-print(ip.split())
+# ip = '127.0.01'
+# print(ip.split())
+
+# my_list = ['Я', 'будущий', 'Python', 'Разработчик']
+
+
+# numbers = [12, 5, 8, 99, 3, 8]
+
+# avtor = {
+#     'name': 'Gondon',
+#     'age': 16,
+    
+# }
+
+# print(avtor['name'])
+# print(avtor.get('surname', 'Gongin')) # get - добавить элемент.
+
+# avtor['age'] = 19
+# avtor['porvalsa'] = True
+# avtor.pop('name')
+
+# print(avtor)
+
+# avtor = {
+#     'name': 'MAMA TVOR',
+#     'age': 16,
+#     'VUEBANA': True,
+# }
+
+
+# user = ['MAMA TVOR', 26,    True]
+
+# for pair in avtor.keys():
+#     print(pair)
+# print(f'Ключи: {avtor.keys()}')
+
+# for pair in avtor.values(): # values - для вывода значений
+#     print(pair)
+
+# print(f'Значения: {avtor.values()}')
+
+
+# for  key, value in avtor.items():  # ITEMS - ДЕЛАЕТ КЛЮЧЗНАЧЕНИЕ
+#     print(f'Ключ: {key}, Значение: {value}')
+info = {'name': 'Ale', 'surname': 'mak'}
+
+info['name']= 'Kirill'
+
+print('info')
